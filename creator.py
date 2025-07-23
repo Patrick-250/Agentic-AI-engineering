@@ -9,5 +9,7 @@ class Creator(BaseModel):
   profile_pic_url:Optional[str]=None
   email:str
 
-creator=Creator(username="tyrumanzi",display_name=25,email="askmehow@gmail.com")
+creator=Creator(username="tyrumanzi",display_name="Rumanzi",email="askmehow@gmail.com")
 print(creator)
+
+
