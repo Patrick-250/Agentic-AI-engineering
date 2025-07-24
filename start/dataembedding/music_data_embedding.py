@@ -4,7 +4,7 @@ import os
 # Add the project root or relevant parent folder to sys.path before imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-# Define the absolute path to your PDF file
+# Define the absolute path to music_data PDF file
 pdf_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'dataloadingandchunking', 'Music_Industry_RAG_Document.pdf'))
 
 from google.auth.transport.requests import Request
