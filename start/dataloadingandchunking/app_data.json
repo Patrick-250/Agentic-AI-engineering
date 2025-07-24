@@ -1,0 +1,137 @@
+{
+  "app": "HarmonyAI",
+  "version": "1.2.4",
+  "users": [
+    {
+      "user_id": "u101",
+      "username": "melody_master",
+      "email": "melody@example.com",
+      "subscription": {
+        "plan": "premium",
+        "renewal_date": "2025-08-01",
+        "payment_method": "credit_card",
+        "status": "active"
+      },
+      "playlists": [
+        {
+          "playlist_id": "p001",
+          "name": "Chill Beats",
+          "created_at": "2024-11-10",
+          "tracks": ["s101", "s102", "s103"],
+          "is_public": true
+        },
+        {
+          "playlist_id": "p002",
+          "name": "Morning Motivation",
+          "created_at": "2025-01-20",
+          "tracks": ["s201", "s202"],
+          "is_public": false
+        }
+      ],
+      "listening_history": [
+        {
+          "song_id": "s101",
+          "timestamp": "2025-07-22T10:23:45Z",
+          "duration_played": 120
+        },
+        {
+          "song_id": "s202",
+          "timestamp": "2025-07-22T11:03:12Z",
+          "duration_played": 215
+        }
+      ],
+      "ai_recommendations": {
+        "based_on": ["liked_genres", "recent_plays", "friends_activity"],
+        "suggested_tracks": ["s301", "s302", "s303"]
+      }
+    }
+  ],
+  "songs": [
+    {
+      "song_id": "s101",
+      "title": "Lo-fi Sunset",
+      "duration_sec": 180,
+      "artist_id": "a101",
+      "album_id": "al101",
+      "genre": "lofi",
+      "release_date": "2024-10-15",
+      "ai_tags": ["chill", "study", "relaxing"],
+      "audio_url": "https://cdn.harmonyai.com/audio/s101.mp3",
+      "cover_art": "https://cdn.harmonyai.com/art/s101.jpg"
+    },
+    {
+      "song_id": "s202",
+      "title": "Run Fast",
+      "duration_sec": 200,
+      "artist_id": "a102",
+      "album_id": "al102",
+      "genre": "electronic",
+      "release_date": "2025-01-01",
+      "ai_tags": ["energy", "morning", "workout"]
+    }
+  ],
+  "artists": [
+    {
+      "artist_id": "a101",
+      "name": "DJ Calm",
+      "bio": "Electronic artist focusing on ambient and lo-fi beats.",
+      "followers": 50000,
+      "albums": ["al101"]
+    },
+    {
+      "artist_id": "a102",
+      "name": "BeatRunner",
+      "bio": "Uplifting house and electronic grooves.",
+      "followers": 78000,
+      "albums": ["al102"]
+    }
+  ],
+  "albums": [
+    {
+      "album_id": "al101",
+      "title": "Ambient Dreams",
+      "artist_id": "a101",
+      "release_year": 2024,
+      "tracks": ["s101", "s102", "s103"],
+      "genre": "lofi"
+    },
+    {
+      "album_id": "al102",
+      "title": "Energy Rise",
+      "artist_id": "a102",
+      "release_year": 2025,
+      "tracks": ["s202", "s203"]
+    }
+  ],
+  "ai_features": {
+    "personalized_mixes": true,
+    "emotion_based_playlists": true,
+    "auto_dj_mode": {
+      "enabled": false,
+      "transition_speed": "smooth",
+      "style": "lofi-to-electronic"
+    },
+    "chatbot_assistant": {
+      "name": "MuseBot",
+      "features": ["playlist_creator", "genre_explainer", "music_trivia"]
+    }
+  },
+  "analytics": {
+    "top_songs": ["s101", "s202", "s303"],
+    "top_genres": ["lofi", "pop", "hiphop"],
+    "most_active_users": ["u101", "u103"],
+    "daily_active_users": 127000
+  },
+  "social": {
+    "followers": {
+      "u101": ["u102", "u104"],
+      "u102": ["u101"]
+    },
+    "friend_recommendations": {
+      "u101": ["s304", "s207"]
+    },
+    "shared_playlists": {
+      "u102": ["p004"]
+    }
+  }
+}

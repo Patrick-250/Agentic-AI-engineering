@@ -6,3 +6,6 @@ notes.txt
 env/
 #requirements
 requirements.txt
+
+#key
+vertexai.json
