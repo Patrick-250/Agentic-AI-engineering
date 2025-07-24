@@ -10,6 +10,7 @@ docs=loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 chunks_documents = text_splitter.split_documents(docs)
+
 #print(chunks_documents[0])
 #print(len(chunks_documents))
 
