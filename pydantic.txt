@@ -1,0 +1,4 @@
+pydantic is one of the common python library used for data validation to make sure we respected the excepted data types between components sharing
+1.also converst input data into python objects with correct data types
+3.error reporting when validation fails
+4.etc as seen in applicationsssss

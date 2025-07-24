@@ -1,10 +1,10 @@
-from pydantic import BaseModel
+from pydantic import BaseModel,Field
 from typing import Optional
 
 
 class Creator(BaseModel):
-  username:str
-  display_name:str
+  username:str=Field(max_length=20,min_length=4)
+  display_name:str=Field(max_length=10,min_length=4)
   bio:Optional[str]=None
   profile_pic_url:Optional[str]=None
   email:str
